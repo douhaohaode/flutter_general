@@ -1,4 +1,4 @@
-import 'package:flutter_general_project/module/home/home_controller.dart';
+import 'package:flutter_general_project/module/main/main_controller.dart';
 import 'package:get/get.dart';
 
 class DataService extends GetxService {
@@ -20,3 +20,4 @@ class DataService extends GetxService {
     isLoggedIn.value = false;
   }
 }
+

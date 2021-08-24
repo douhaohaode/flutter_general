@@ -6,10 +6,10 @@ class DeatilsPage extends GetWidget<DetailsController> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text('Details'),
-        centerTitle: true,
-      ),
+      // appBar: AppBar(
+      //   title: Text('Details'),
+      //   centerTitle: true,
+      // ),
       floatingActionButton: FloatingActionButton.extended(
         onPressed:(){
           controller.chagne();
@@ -23,7 +23,6 @@ class DeatilsPage extends GetWidget<DetailsController> {
             Obx(
                   () => Text(
                 controller.chageObs.value == true ? "产品详情正在运行" : 'ProductDetailsView is working',
-                // style: TextStyle(fontSize: 20),
               ),
             ),
             Text('ProductId: ${controller.productId}')

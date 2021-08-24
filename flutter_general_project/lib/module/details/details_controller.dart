@@ -11,8 +11,8 @@ class DetailsController extends GetxController {
   @override
   void onInit() {
     super.onInit();
-    chageObs.value = DataService.to.isChange;
     Get.log('ProductDetailsController created with id: $productId');
+    chageObs.value = DataService.to.isChange;
   }
 
   @override
